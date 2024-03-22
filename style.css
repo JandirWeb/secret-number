@@ -4,6 +4,7 @@
     --font-family: 'Quantico', sans-serif;
     --bg-color: #124076;
     --primary-color: #F7EEDD;
+    --error-color: #D37676;
     
 }
 
@@ -38,10 +39,25 @@ h3{
     margin-top: 30px;
 }
 
+.invalido{
+    color: var(--error-color);
+}
+
 .box{
     border: 2px solid var(--primary-color);
     display: inline-block;
     font-size: 4em;
     padding: 10px;
     margin: 20px;
+}
+
+.btn-jogar{
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn-jogar:hover{
+    background: #FFC374;
 }
