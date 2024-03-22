@@ -1,4 +1,4 @@
-const elementoChute = document.querySelector('#chute');
+const elementoChute = document.getElementById('chute');
 
 window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 
