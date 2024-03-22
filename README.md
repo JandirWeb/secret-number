@@ -10,7 +10,7 @@
 </div>
 
 ## What works
-- Speech recognition
+- Speech recognition with API Web Speech API
 - Random Math
 - Player control
 
